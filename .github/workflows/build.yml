@@ -37,4 +37,4 @@ jobs:
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
           SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
-        run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=CanarysPlayground_deeper-sast-demo_6eae03c5-7357-4643-b560-5a4dd0d61638 -Dsonar.projectName='deeper-sast-demo'
+        run: mvn -x -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=CanarysPlayground_deeper-sast-demo_6eae03c5-7357-4643-b560-5a4dd0d61638 -Dsonar.projectName='deeper-sast-demo'
