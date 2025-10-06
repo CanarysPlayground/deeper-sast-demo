@@ -22,6 +22,7 @@ This repository is supposed to be added as a SonarCloud project for analysis via
 
 The first two issues will be displayed on the `main` branch and the other two issues on distinct Pull Requests.
 
+
 ## Storyboard
 
 The demo is a fictive Spring application implementing different functionalities which are vulnerable to security issues detected by our engine. All of these issues contain at least one step where the data flow:
