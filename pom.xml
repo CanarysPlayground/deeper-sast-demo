@@ -85,6 +85,12 @@
             <artifactId>hutool-all</artifactId>
             <version>5.8.18</version>
         </dependency>
+        <!-- Added dependency with prohibited license for testing -->
+        <dependency>
+            <groupId>com.jcraft</groupId>
+            <artifactId>jsch</artifactId>
+            <version>0.1.55</version>
+        </dependency>
     </dependencies>
 
     <build>
@@ -96,3 +102,5 @@
         </plugins>
     </build>
 </project>
+
+
